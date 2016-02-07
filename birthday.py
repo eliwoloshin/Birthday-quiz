@@ -31,3 +31,12 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+import calendar
+import datetime
+
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+
+name = input("What is your name? ")
