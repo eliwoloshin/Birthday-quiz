@@ -48,7 +48,24 @@ elif month == "February":
     monthnumb = 2
 elif month == "March":
     monthnumb = 3
-elif 
+elif month == "April":
+    monthnumb = 4
+elif month == "May":
+    monthnumb = 5
+elif month == "June":
+    monthnumb = 6
+elif month == "July":
+    monthnumb = 7
+elif month == "August":
+    monthnumb = 8
+elif month == "September":
+    monthnumb = 9
+elif month == "October":
+    monthnumb = 10
+elif month == "November":
+    monthnumb = 11
+elif month == "December":
+    monthnumb = 12
 
 day = float(input("And the day? "))
 if day == 31:
