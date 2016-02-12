@@ -76,7 +76,7 @@ else:   # 55 or warmer
     if monthnumb == todaymonth and day == todaydate:
         print("You were born today! ")
 
-    
+
 if 1 <= monthnumb <= 2: 
     season = "winter"
 elif 3 <= monthnumb <= 5:
