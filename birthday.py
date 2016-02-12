@@ -41,7 +41,7 @@ todaydate = datetime.today().day
 
 name = input("What is your name? ")
 month = input("Hi "+name+", what was the name of the month you were born in? ")
-year = input("And what year were you born in," +name+"? ")
+year = int(input("And what year were you born in," +name+"? "))
 
 if month == "January":
     monthnumb = 1
@@ -95,4 +95,4 @@ elif 1990 <= year <= 1999:
 elif year <1980:
     decade = "stone age"
     
-print(+name+", you are a "+season+"baby of the"+decade+". ")
+print(+name+", you are a "+season+" baby of the "+decade+". ")
