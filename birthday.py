@@ -40,3 +40,25 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 name = input("What is your name? ")
+month = input("Hi "+name+", what was the name of the month you were born in? ")
+
+if month == "January":
+    monthnumb = 1
+elif month == "February":
+    monthnumb = 2
+elif month == "March":
+    monthnumb = 3
+elif 
+
+day = float(input("And the day? "))
+if day == 31:
+    if month == "October":
+        print("You were born on Halloween! ")
+    else:   # if it's not rainy then it must be cold and sunny!
+        print("You should bring a fleece.") 
+else:   # 55 or warmer
+    if monthnumb == todaymonth and day == todaydate:
+        print("You were born today! ")
+    else:   # if it's not rainy then it must be warm and sunny!
+        print("You should bring sunglasses.")
+
