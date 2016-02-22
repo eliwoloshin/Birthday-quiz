@@ -79,6 +79,8 @@ else:   # 55 or warmer
 
 if 1 <= monthnumb <= 2: 
     season = "winter"
+elif monthnumb == 12:
+    season = "winter"
 elif 3 <= monthnumb <= 5:
     season = "spring"
 elif 6 <= monthnumb <= 8:
