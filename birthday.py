@@ -69,34 +69,33 @@ elif month == "December":
     monthnumb = 12
 
 day = float(input("And the day? "))
-if day == 31:
-    if month == "October":
-        print("You were born on Halloween! ")
-else:   # 55 or warmer
-    if monthnumb == todaymonth and day == todaydate:
-        print("You were born today! ")
+if day == 31 and month == "October":
+    print("You were born on Halloween! ")
+elif   monthnumb == todaymonth and day == todaydate:
+    print("You were born today! ")
+else:
 
 
-if 1 <= monthnumb <= 2: 
-    season = "winter"
-elif monthnumb == 12:
-    season = "winter"
-elif 3 <= monthnumb <= 5:
-    season = "spring"
-elif 6 <= monthnumb <= 8:
-    season = "summer"
-elif 9 <= monthnumb <= 11:
-    season = "fall"
-
-
+    if 1 <= monthnumb <= 2: 
+        season = "winter"
+    elif monthnumb == 12:
+        season = "winter"
+    elif 3 <= monthnumb <= 5:
+        season = "spring"
+    elif 6 <= monthnumb <= 8:
+        season = "summer"
+    elif 9 <= monthnumb <= 11:
+        season = "fall"
     
-if 1980 <= year <= 1989:
-    decade = "eighties"
-elif 1990 <= year <= 1999:
-    decade = "nineties"
-elif year <1980:
-    decade = "stone age"
-elif 2000 <= year:
-    decade = "two thousands"
     
-print(name+", you are a "+season+" baby of the "+decade+". ")
+        
+    if 1980 <= year <= 1989:
+        decade = "eighties"
+    elif 1990 <= year <= 1999:
+        decade = "nineties"
+    elif year <1980:
+        decade = "stone age"
+    elif 2000 <= year:
+        decade = "two thousands"
+    
+    print(name+", you are a "+season+" baby of the "+decade+". ")
