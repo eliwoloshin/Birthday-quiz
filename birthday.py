@@ -96,5 +96,7 @@ elif 1990 <= year <= 1999:
     decade = "nineties"
 elif year <1980:
     decade = "stone age"
+elif 2000 <= year:
+    decade = "two thousands"
     
 print(+name+", you are a "+season+" baby of the "+decade+". ")
