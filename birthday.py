@@ -99,4 +99,4 @@ elif year <1980:
 elif 2000 <= year:
     decade = "two thousands"
     
-print(+name+", you are a "+season+" baby of the "+decade+". ")
+print(name+", you are a "+season+" baby of the "+decade+". ")
