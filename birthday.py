@@ -94,7 +94,7 @@ else:
     elif 1990 <= year <= 1999:
         decade = "nineties"
     elif year <1980:
-        decade = "stone age"
+        decade = "Stone Age"
     elif 2000 <= year:
         decade = "two thousands"
     
