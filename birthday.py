@@ -68,7 +68,7 @@ elif month == "November":
 elif month == "December":
     monthnumb = 12
 
-day = float(input("And the day? "))
+day = int(input("And the day? "))
 if day == 31 and month == "October":
     print("You were born on Halloween! ")
 elif   monthnumb == todaymonth and day == todaydate:
